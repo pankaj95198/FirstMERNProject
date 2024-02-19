@@ -1,0 +1,80 @@
+
+<div class="registration-box-container">
+      <div class="register-box">
+        <div class="image-div">
+          
+        </div>
+
+
+        <div class="main-form-div">
+          <div class="employee-text">
+            <h3>Employee Registration form.</h3>
+          </div>
+          <form action="/register" method="POST">
+            <!-- first name and lastname div -->
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="first name" name="firstname">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" name="lastname">
+              </div>
+            </div>
+            <!-- first name and lastname div -->
+            <!-- email and male female radio button -->
+              <div class="email">
+                <!-- email -->
+                  <div class="col-sm-5"> 
+                    <input type="email" class="form-control"  placeholder="Email" name="email">
+                  </div>
+                <!-- email end -->
+                <!-- male female radio button -->
+                <div class="radio-btn">
+                  <div class="male-btn">
+                    <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="male" >
+                    <label class="form-check-label" for="gridRadios1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="female-btn">
+                    <input class="form-check-input" type="radio" name="gender" id="gridRadios2" value="female">
+                    <label class="form-check-label" for="gridRadios1">
+                      Female
+                    </label>
+                  </div>
+                </div>
+                <!-- male female radio button end -->
+              </div>
+            <!-- email and male femal radio button end-->
+            <!-- phone number and age section -->
+            <div class="phone-age">
+              <div class="row">
+                <div class="col">
+                  <input type="number" class="form-control" placeholder="Phone number" name="phno">
+                </div>
+                <div class="col">
+                  <input type="number" class="form-control" placeholder="Your age" name="age">
+                </div>
+              </div>
+            </div>
+            <!-- phone number and age section ends -->
+
+            <!-- password section starts -->
+            <div class="pswd">
+              <div class="row">
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="password" name="password">
+                </div>
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="Confirm password" name="cpassword">
+                </div>
+              </div>
+            </div>
+            <!-- password section ends -->
+            <div class="form-group btn">
+              <button type="submit" >Register</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>  

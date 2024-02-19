@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+}
+ 
+.main_header{
+    background-image: url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.navbar a{
+    color:#fff;
+    font-size: 2rem;
+}
+
+
+
+.welcome_text{
+    height: 20rem;
+    margin:4rem auto;
+}
+
+.welcome_text p{
+    text-align: center;
+    color: #fff;
+    font-size: 6.5rem;
+    text-transform: capitalize;
+}
+
+.text_boxes{
+    margin-left: 30rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.text_box1{
+    display: flex;
+}
+
+h4{
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2.2rem;
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.text_box1 div{
+    flex-basis: 22%;
+    border: 1px solid grey;
+    padding: 0.8rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.text_box1 :first-child{
+    margin-right: 2rem;
+}
+
+.text_box1 :last-child{
+    margin-left: 2rem;
+}
+
+
+
+
+.register-box{
+    margin: 1.2rem 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border: 1px solid gray;
+}
+
+
+.employee-text{
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+
+
+
+.email{
+    padding-top: 0.8rem;
+    display: flex;
+}
+
+.radio-btn{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    justify-content: space-around;
+
+}
+
+
+.male-btn{
+    margin-right: 5rem;
+}
+
+.female-btn{
+    margin-left: 5rem;
+}
+
+
+.phone-age{
+    padding-top: 0.8rem;
+}
+
+.pswd{
+    padding-top: 0.8rem;
+}
+
+.register-btn{
+    margin-top: 0.8rem;
+}
+
+.form-group.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.form-group.btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(114, 45, 218);
+}
+
+.team-text h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    padding: 0.8rem 0;
+}
+
+.four-boxes{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 21rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.four-boxes div{
+    border: 0.2rem solid white;
+}
+
+.box{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;   
+    vertical-align: bottom;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
